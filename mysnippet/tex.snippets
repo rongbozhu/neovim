@@ -1,0 +1,62 @@
+snippet "lm(\s+\S*)?" "Inline formula" Ar
+$${1:a^2+b^2=c^2}$$0
+endsnippet
+
+snippet subsec "subsection" A
+\\subsection{${1:subsection}}
+$0
+endsnippet
+
+snippet sec "section" A
+\\section{${1:section}}
+$0
+endsnippet
+
+snippet chap "chapter" A
+\\section{${1:chapter}}
+$0
+endsnippet
+
+snippet emphblue "empheq" A
+\\begin{empheq}[box=\boxblue]{${1:equation}}
+${2:x_1=1}
+\\end{empheq}
+$0
+endsnippet
+
+snippet emphbox "empheq" A
+\\begin{empheq}[box=\widefbox]{${1:equation}}
+${2:x_1=1}
+\\end{empheq}
+$0
+endsnippet
+
+snippet note "note" A
+\\begin{note}
+${1:注意}
+\\end{note}
+$0
+endsnippet
+
+snippet notice "notice" A
+\\begin{notice}
+${1:注意}
+\\end{notice}
+$0
+endsnippet
+
+snippet pdfo "partial differential fraction operator" A
+\frac{\partial}{\partial ${1:x}}$0
+endsnippet
+
+snippet partial "partial differential" A 
+\partial
+endsnippet
+
+snippet bf "bfseries" A
+{\bfseries ${1:a}}$0
+endsnippet
+
+snippet  bindex "bfseries index" A
+{\bfseries ${1:a}}\index{$1}$0
+endsnippet
